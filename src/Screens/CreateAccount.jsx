@@ -127,11 +127,12 @@ function CreateAccount() {
 const styles = {
   container: {
     width: "375px",
-    height: "812px",
+    maxWidth: "100vw",
+    height: "min(812px, calc(100dvh - 40px))",
     margin: "20px auto",
     border: "1px solid #dcdcdc",
     backgroundColor: "#f7f7f7",
-    padding: "35px 20px",
+    padding: "28px 20px 24px",
     boxSizing: "border-box",
     fontFamily: "Arial, sans-serif",
     position: "relative",
@@ -142,19 +143,21 @@ const styles = {
     height: "100%",
     display: "flex",
     flexDirection: "column",
+    overflowY: "auto",
+    paddingRight: "2px",
   },
 
   heading: {
-    fontSize: "38px",
+    fontSize: "32px",
     fontWeight: "700",
     color: "#1d1d1d",
     lineHeight: "1.25",
-    marginBottom: "30px",
+    marginBottom: "24px",
   },
 
   inputContainer: {
     position: "relative",
-    marginBottom: "24px",
+    marginBottom: "20px",
   },
 
   label: {
@@ -174,7 +177,7 @@ const styles = {
 
   input: {
     width: "100%",
-    height: "52px",
+    height: "48px",
     border: "2px solid #d9d9d9",
     borderRadius: "8px",
     padding: "0 14px",
@@ -185,7 +188,7 @@ const styles = {
   },
 
   radioSection: {
-    marginTop: "5px",
+    marginTop: "0",
   },
 
   radioTitle: {
@@ -220,7 +223,8 @@ const styles = {
   button: {
     marginTop: "auto",
     width: "100%",
-    height: "56px",
+    height: "52px",
+    minHeight: "52px",
     backgroundColor: "#6c25ff",
     color: "#ffffff",
     border: "none",

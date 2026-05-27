@@ -93,7 +93,8 @@ function SignupScreen() {
 const styles = {
   container: {
     width: "375px",
-    height: "812px",
+    maxWidth: "100vw",
+    height: "min(812px, calc(100dvh - 40px))",
     margin: "20px auto",
     border: "1px solid #dcdcdc",
     backgroundColor: "#f7f7f7",
@@ -107,7 +108,7 @@ const styles = {
   },
 
   heading: {
-    fontSize: "42px",
+    fontSize: "34px",
     fontWeight: "700",
     color: "#1d1d1d",
     lineHeight: "1.25",
@@ -115,10 +116,10 @@ const styles = {
   },
 
   subText: {
-    fontSize: "22px",
+    fontSize: "18px",
     color: "#8c8c8c",
     lineHeight: "1.5",
-    marginBottom: "35px",
+    marginBottom: "30px",
   },
 
   inputContainer: {

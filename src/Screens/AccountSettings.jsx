@@ -69,7 +69,8 @@ function App() {
 const styles = {
   container: {
     width: "375px",
-    height: "812px",
+    maxWidth: "100vw",
+    height: "min(812px, calc(100dvh - 40px))",
     margin: "20px auto",
     border: "1px solid #dcdcdc",
     backgroundColor: "#ffffff",

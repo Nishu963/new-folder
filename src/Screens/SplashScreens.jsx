@@ -42,7 +42,8 @@ function SplashScreen() {
 const styles = {
   container: {
     width: "375px",
-    height: "812px",
+    maxWidth: "100vw",
+    height: "min(812px, calc(100dvh - 40px))",
     margin: "20px auto",
     backgroundColor: "#f7f7f7",
     border: "1px solid #ddd",
@@ -59,7 +60,7 @@ const styles = {
   },
 
   heading: {
-    fontSize: "34px",
+    fontSize: "32px",
     fontWeight: "700",
     marginBottom: "10px",
   },
