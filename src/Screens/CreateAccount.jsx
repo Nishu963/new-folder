@@ -189,6 +189,7 @@ const styles = {
 
   radioSection: {
     marginTop: "0",
+    marginBottom: "20px",
   },
 
   radioTitle: {
