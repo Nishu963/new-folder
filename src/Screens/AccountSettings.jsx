@@ -5,20 +5,19 @@ function App() {
   return (
     <div style={styles.container}>
       
-      {/* Header */}
+
       <div style={styles.header}>
         <h2 style={styles.headerText}>Account Settings</h2>
       </div>
 
-      {/* Main Content */}
       <div style={styles.contentArea}>
 
-        {/* Profile Section */}
+
         <div style={styles.profileSection}>
 
           <div style={styles.profileTop}>
 
-            {/* Profile Image */}
+
             <div style={styles.imageContainer}>
               <img
                 src={profileImg}
@@ -26,7 +25,7 @@ function App() {
                 style={styles.profileImage}
               />
 
-              {/* Camera Icon */}
+              
               <div style={styles.cameraIconContainer}>
                 <svg
                   width="13"
@@ -40,7 +39,7 @@ function App() {
               </div>
             </div>
 
-            {/* Text */}
+            
             <div style={styles.textContainer}>
               <h3 style={styles.name}>Marry Doe</h3>
               <p style={styles.email}>Marry@gmail.com</p>
@@ -48,7 +47,6 @@ function App() {
 
           </div>
 
-          {/* Description */}
           <p style={styles.description}>
             Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing
             Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut
@@ -57,10 +55,10 @@ function App() {
 
         </div>
 
-        {/* Dashed Line */}
+
         <div style={styles.dashedLine}></div>
 
-        {/* Bottom Dashed Line */}
+
         <div style={styles.bottomLine}></div>
 
       </div>
